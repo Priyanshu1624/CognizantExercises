@@ -1,6 +1,5 @@
 
 public class Product {
-
     private int productId;
     private String productName;
     private String category;
@@ -25,8 +24,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{productId=" + productId
-                + ", productName='" + productName + "'"
-                + ", category='" + category + "'}";
+        return "Product{id=" + productId + ", name='" + productName + "', category='" + category + "'}";
     }
 }
